@@ -2,7 +2,7 @@ call plug#begin("~/.vim/plugged")
 " ===== Theme =====
 Plug 'morhetz/gruvbox'
 " ===== Explorer =====
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+" Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 Plug 'tpope/vim-eunuch'
 " ===== Search =====
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -35,5 +35,6 @@ Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'justinmk/vim-sneak'
 Plug 'junegunn/goyo.vim'
+Plug '/ervandew/supertab'
 
 call plug#end()

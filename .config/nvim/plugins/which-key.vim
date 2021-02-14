@@ -27,7 +27,6 @@ let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
 let g:which_key_map['p'] = [ ':Files'                     , 'search files' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
-let g:which_key_map['r'] = [ ':Ranger'                    , 'ranger' ]
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 
 " s is for search
@@ -74,6 +73,7 @@ let g:which_key_map.t = {
       \ 't' : [':FloatermToggle'                                , 'toggle'],
       \ 'b' : [':FloatermNew btm'                               , 'btm'],
       \ 'd' : [':FloatermNew dust'                              , 'dust'],
+      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
       \ }
 
 " Register which key map

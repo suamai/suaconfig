@@ -13,7 +13,7 @@ source $HOME/.config/nvim/plugins/floaterm.vim
 source $HOME/.config/nvim/plugins/fzf.vim
 source $HOME/.config/nvim/plugins/multi-cursor.vim
 source $HOME/.config/nvim/plugins/rainbow.vim
-source $HOME/.config/nvim/plugins/rnvimr.vim
+" source $HOME/.config/nvim/plugins/rnvimr.vim
 source $HOME/.config/nvim/plugins/sneak.vim
 source $HOME/.config/nvim/plugins/snippets.vim
 source $HOME/.config/nvim/plugins/startify.vim

@@ -9,14 +9,16 @@ nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 
 " Use alt + hjkl to resize windows
-" nnoremap <M-j>    :resize -2<CR>
-" nnoremap <M-k>    :resize +2<CR>
-" nnoremap <M-h>    :vertical resize -2<CR>
-" nnoremap <M-l>    :vertical resize +2<CR>
+nnoremap <A-J>    :resize -2<CR>
+nnoremap <A-K>    :resize +2<CR>
+nnoremap <A-h>    :vertical resize -2<CR>
+nnoremap <A-L>    :vertical resize +2<CR>
 
-" Better nav for omnicomplete
+" <TAB>: completion.
 inoremap <expr> <C-j> ("\<C-n>")
 inoremap <expr> <C-k> ("\<C-p>")
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><C-l> pumvisible() ? "\<Right>" : "\<C-l>"
 
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
@@ -33,8 +35,6 @@ nnoremap <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 
-" <TAB>: completion.
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " Paste from "0
 nmap <C-v> "0p
