@@ -17,3 +17,5 @@ alias grd='git rebase dev'
 alias cgit='/usr/bin/git --git-dir=$HOME/.suaconfig/ --work-tree=$HOME'
 
 alias oni='Oni2'
+
+alias anvim='alacritty --class dropdown_nvim'
