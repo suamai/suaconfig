@@ -1,0 +1,84 @@
+[theme]
+name = "gruvbox-dark"
+[theme.overrides]
+good_fg = "#F0EAD6"
+idle_fg = "#F0EAD6"
+info_fg = "#F0EAD6"
+warning_fg = "#F0EAD6"
+critical_fg = "#F0EAD6"
+# good_bg = "#98971a"
+# idle_bg = "#282828"
+# info_bg = "#458588"
+# warning_bg = "#d79921"
+# critical_bg = "#cc241d"
+# separator_bg = "auto"
+# separator_fg = "auto"
+
+[icons]
+name = "awesome"
+[icons.overrides]
+music = "\uf025 "
+
+[[block]]
+block = "music"
+buttons = ["play"]
+hide_when_empty = true
+dynamic_width = true
+max_width= 50
+
+# [[block]]
+# block = "taskwarrior"
+# interval = 60
+# format = "{count} tasks"
+# format_singular = "{count} task"
+# format_everything_done = "all check!"
+# warning_threshold = 10
+# critical_threshold = 20
+
+# [[block]]
+# block = "watson"
+# show_time = true
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{Mupi}%"
+format_swap = "{SUg}"
+
+[[block]]
+block = "cpu"
+interval = 1
+format = "{utilization}%"
+
+[[block]]
+block = "backlight"
+device = "intel_backlight"
+
+[[block]]
+block = "hueshift"
+hue_shifter = "redshift"
+step = 50
+click_temp = 3500
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "temperature"
+interval = 10
+format = "{average}°"
+
+[[block]]
+block = "battery"
+interval = 30
+format = "{percentage}% {time}"
+
+[[block]]
+block = "pacman"
+interval = 600
+format = "{pacman}"
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d/%m %R"
