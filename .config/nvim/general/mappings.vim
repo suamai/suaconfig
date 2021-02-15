@@ -14,19 +14,14 @@ nnoremap <A-K>    :resize +2<CR>
 nnoremap <A-h>    :vertical resize -2<CR>
 nnoremap <A-L>    :vertical resize +2<CR>
 
-" <TAB>: completion.
-inoremap <expr> <C-j> ("\<C-n>")
-inoremap <expr> <C-k> ("\<C-p>")
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-inoremap <expr><C-l> pumvisible() ? "\<Right>" : "\<C-l>"
 
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
 
 " Tab/Buffer Navigation
-nnoremap <TAB> :bnext<CR>
-nnoremap <S-TAB> :bprevious<CR>
+" nnoremap <TAB> :bnext<CR>
+" nnoremap <S-TAB> :bprevious<CR>
 nnoremap <C-k> :tabn<CR>
 nnoremap <C-j> :tabp<CR>
 

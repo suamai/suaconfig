@@ -14,7 +14,8 @@ alias gcm='git commit -m'
 alias gr='git rebase'
 alias grd='git rebase dev'
 
-alias cgit='/usr/bin/git --git-dir=$HOME/.suaconfig/ --work-tree=$HOME'
+alias cg='/usr/bin/git --git-dir=$HOME/.suaconfig/ --work-tree=$HOME'
+alias clg='lazygit --git-dir=$HOME/.suaconfig/ --work-tree=$HOME'
 
 alias oni='Oni2'
 
