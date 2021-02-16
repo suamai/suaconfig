@@ -22,8 +22,8 @@ nnoremap <c-u> viwU<Esc>
 " Tab/Buffer Navigation
 " nnoremap <TAB> :bnext<CR>
 " nnoremap <S-TAB> :bprevious<CR>
-nnoremap <C-k> :tabn<CR>
-nnoremap <C-j> :tabp<CR>
+nnoremap <C-k> :BufferNext<CR>
+nnoremap <C-j> :BufferPrevious<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>

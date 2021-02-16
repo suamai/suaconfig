@@ -7,14 +7,6 @@
     "javascriptreact",
     "typescript.tsx"
   ],
-  "eslint.filetypes": [
-    "javascript",
-    "typescript",
-    "typescriptreact",
-    "javascriptreact",
-    "typescript.tsx"
-  ],
-  "coc.preferences.diagnostic.virtualText": true,
   "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
   "signature.target": "float",
   "coc.preferences.hoverTarget": "float",

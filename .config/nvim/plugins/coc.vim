@@ -112,3 +112,8 @@ let g:coc_explorer_global_presets = {
 \ }
 
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+vmap <leader>=  <Plug>(coc-format-selected)
+nmap <leader>=  <Plug>(coc-format-selected)
