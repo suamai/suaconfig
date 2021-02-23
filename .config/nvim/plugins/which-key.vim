@@ -28,6 +28,8 @@ let g:which_key_map['p'] = [ ':Files'                     , 'search files' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
+"let g:which_key_map['='] = [ 'gg0=G``'                       , 'format file' ]
+let g:which_key_map['='] = [ ':call CocAction("format")'                       , 'format file' ]
 
 " s is for search
 let g:which_key_map.s = {

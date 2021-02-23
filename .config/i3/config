@@ -378,7 +378,8 @@ bar {
 
 exec --no-startup-id alacritty --class dropdown_nvim &
 for_window [instance="dropdown_nvim"] floating enable, resize set 1920 1050, move scratchpad
-bindsym $mod+n [instance="dropdown_nvim"] scratchpad show, move position 0px 0px
+#bindsym $mod+n [instance="dropdown_nvim"] scratchpad show, move position 0px 0px
+bindsym $mod+n exec fish -c anv
 
 
 # hide/unhide i3status bar

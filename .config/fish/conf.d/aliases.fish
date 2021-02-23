@@ -17,6 +17,6 @@ alias grd='git rebase dev'
 alias cg='/usr/bin/git --git-dir=$HOME/.suaconfig/ --work-tree=$HOME'
 alias clg='lazygit --git-dir=$HOME/.suaconfig/ --work-tree=$HOME'
 
-alias oni='Oni2'
+alias ls='exa'
 
 alias anvim='alacritty --class dropdown_nvim'

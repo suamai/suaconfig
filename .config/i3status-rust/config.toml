@@ -26,18 +26,10 @@ hide_when_empty = true
 dynamic_width = true
 max_width= 50
 
-# [[block]]
-# block = "taskwarrior"
-# interval = 60
-# format = "{count} tasks"
-# format_singular = "{count} task"
-# format_everything_done = "all check!"
-# warning_threshold = 10
-# critical_threshold = 20
-
-# [[block]]
-# block = "watson"
-# show_time = true
+[[block]]
+block = "custom"
+command = "echo nvim"
+on_click = "anv"
 
 [[block]]
 block = "memory"
@@ -49,6 +41,9 @@ format_swap = "{SUg}"
 block = "cpu"
 interval = 1
 format = "{utilization}%"
+
+[[block]]
+block = "load"
 
 [[block]]
 block = "backlight"
@@ -80,5 +75,5 @@ format = "{pacman}"
 
 [[block]]
 block = "time"
-interval = 60
+interval = 15
 format = "%a %d/%m %R"

@@ -13,7 +13,8 @@ let g:coc_global_extensions = [
     \ 'coc-flutter',
     \ 'coc-rust-analyzer',
     \ 'coc-snippets',
-    \ 'coc-eslint'
+    \ 'coc-eslint',
+    \ 'coc-toml'
     \ ]
 
 
@@ -115,5 +116,3 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
-vmap <leader>=  <Plug>(coc-format-selected)
-nmap <leader>=  <Plug>(coc-format-selected)

@@ -35,6 +35,9 @@ nnoremap <C-Q> :wq!<CR>
 nmap <C-v> "0p
 nnoremap U <C-R>
 
+" close buffer
+nnoremap <C-w> :bd<CR>
+
 " ========== Plugins ==========
 
 " Commenter

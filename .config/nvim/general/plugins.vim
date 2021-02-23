@@ -36,6 +36,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'liuchengxu/vista.vim'
 " Misc
 Plug 'mattn/emmet-vim'
+Plug 'dag/vim-fish'
 
 " ========== Git ==========
 Plug 'tpope/vim-fugitive'

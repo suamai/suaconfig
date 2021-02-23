@@ -5,7 +5,8 @@
     "typescriptreact",
     "json",
     "javascriptreact",
-    "typescript.tsx"
+    "typescript.tsx",
+    "rust"
   ],
   "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
   "signature.target": "float",
@@ -47,5 +48,8 @@
     "v": "open:vsplit"
   },
   "bookmark.sign": "",
-  "coc.source.emoji.filetypes": ["markdown"]
+  "coc.source.emoji.filetypes": ["markdown"],
+  "rust-analyzer.inlayHints.enable": true,
+  "rust-analyzer.inlayHints.chainingHints": true,
+  "rust-analyzer.inlayHints.typeHints": true
 }
