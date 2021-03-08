@@ -11,19 +11,19 @@ nnoremap <A-l> <C-w>l
 " Use alt + hjkl to resize windows
 nnoremap <A-J>    :resize -2<CR>
 nnoremap <A-K>    :resize +2<CR>
-nnoremap <A-h>    :vertical resize -2<CR>
+nnoremap <A-H>    :vertical resize -2<CR>
 nnoremap <A-L>    :vertical resize +2<CR>
 
 
 " Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+" inoremap <c-u> <ESC>viwUi
+" nnoremap <c-u> viwU<Esc>
 
 " Tab/Buffer Navigation
 " nnoremap <TAB> :bnext<CR>
 " nnoremap <S-TAB> :bprevious<CR>
-nnoremap <C-k> :BufferNext<CR>
-nnoremap <C-j> :BufferPrevious<CR>
+nnoremap ] :BufferNext<CR>
+nnoremap [ :BufferPrevious<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
@@ -37,6 +37,8 @@ nnoremap U <C-R>
 
 " close buffer
 nnoremap <C-w> :bd<CR>
+
+nnoremap <leader>. :nohl<CR>
 
 " ========== Plugins ==========
 

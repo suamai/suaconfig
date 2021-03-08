@@ -52,7 +52,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdcommenter'
 Plug 'suy/vim-context-commentstring'
 " Multiple Cursors
-Plug 'terryma/vim-multiple-cursors'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 " Zen
 Plug 'junegunn/goyo.vim'
 " Undo Tree

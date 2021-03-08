@@ -14,7 +14,6 @@ source $HOME/.config/nvim/plugins/far.vim
 source $HOME/.config/nvim/plugins/easymotion.vim
 source $HOME/.config/nvim/plugins/floaterm.vim
 source $HOME/.config/nvim/plugins/fzf.vim
-source $HOME/.config/nvim/plugins/multi-cursor.vim
 source $HOME/.config/nvim/plugins/nerd-commenter.vim
 source $HOME/.config/nvim/plugins/polyglot.vim
 source $HOME/.config/nvim/plugins/quick-scope.vim
@@ -24,5 +23,6 @@ source $HOME/.config/nvim/plugins/startify.vim
 source $HOME/.config/nvim/plugins/theme.vim
 luafile $HOME/.config/nvim/plugins/treesitter.lua
 source $HOME/.config/nvim/plugins/vim-tmux-navigator.vim
+source $HOME/.config/nvim/plugins/vim-visual-multi.vim
 source $HOME/.config/nvim/plugins/vista.vim
 source $HOME/.config/nvim/plugins/which-key.vim

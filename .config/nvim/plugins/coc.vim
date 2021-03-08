@@ -27,6 +27,12 @@ inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 inoremap <expr><C-l> pumvisible() ? "\<Right>" : "\<C-l>"
 
@@ -116,3 +122,7 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
+nmap <silent> <leader>n <Plug>(coc-diagnostic-next)
+nmap <silent> <leader>p <Plug>(coc-diagnostic-prev)
+
+nnoremap <leader>h :CocCommand rust-analyzer.toggleInlayHints<cr> 

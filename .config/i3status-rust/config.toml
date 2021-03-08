@@ -74,6 +74,11 @@ interval = 600
 format = "{pacman}"
 
 [[block]]
+block = "github"
+interval = 60
+format = "{assign}"
+
+[[block]]
 block = "time"
 interval = 15
 format = "%a %d/%m %R"
